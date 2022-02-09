@@ -1,0 +1,21 @@
+.org-add-wrapper
+{
+	position:absolute;
+	top:-41px;
+	right:-1px;
+}
+.org-add
+{
+	border:1px solid #eeeeee;
+	cursor:pointer;
+	height:30px;
+	line-height:30px;
+	padding:0 10px;
+}
+.org-add-wrapper .org-add-inner a
+{
+	color:#000;
+	font-size:13px;
+	font-family:ProximaNova;
+	text-decoration:none;
+}

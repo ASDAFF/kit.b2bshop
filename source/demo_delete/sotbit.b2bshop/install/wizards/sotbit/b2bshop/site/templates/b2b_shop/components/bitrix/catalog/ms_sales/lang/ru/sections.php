@@ -1,0 +1,6 @@
+<?
+$MESS["MS_SALE_YES"] = "Да";
+$MESS["COLOR_IN_SECTION_YES_1"] = "Да";
+$MESS["COLOR_IN_SECTION_YES_2"] = "да";
+$MESS["COLOR_IN_SECTION_YES_3"] = "ДА";
+?>
