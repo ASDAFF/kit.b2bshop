@@ -1,0 +1,30 @@
+<?
+$MESS["COMP_FORM_PARAMS_RESULT_ID"] = "ID du rГ©sultat";
+$MESS["COMP_FORM_PARAMS_SHOW_VIEW_PAGE"] = "Montrer la page de consultation du rГ©sultat";
+$MESS["COMP_FORM_PARAMS_SHOW_EDIT_PAGE"] = "Montrer la page d'Г©dition du rГ©sultat";
+$MESS["COMP_FORM_PARAMS_SHOW_LIST_PAGE"] = "Afficher la page avec la liste des rГ©sultats";
+$MESS["COMP_FORM_SEF_RESULT_NEW_PAGE"] = "Page de l'ajout du rГ©sultat";
+$MESS["COMP_FORM_VALUES_NEW"] = "page de l'ajout du rГ©sultat";
+$MESS["COMP_FORM_SEF_RESULT_VIEW_PAGE"] = "Page d'examen du rГ©sultat";
+$MESS["COMP_FORM_SEF_RESULT_EDIT_PAGE"] = "Page d'Г©dition du rГ©sultat";
+$MESS["COMP_FORM_PARAMS_START_PAGE"] = "DГ©but";
+$MESS["COMP_FORM_PARAMS_WEB_FORM_ID"] = "formulaire Web ID";
+$MESS["COMP_FORM_PARAMS_EDIT_ADDITIONAL"] = "Autoriser la modification des champs auxiliaires";
+$MESS["COMP_FORM_PARAMS_EDIT_STATUS"] = "Afficher le formulaire de changement de statut";
+$MESS["COMP_FORM_PARAMS_IGNORE_CUSTOM_TEMPLATE"] = "Ignorer modГЁle personnalisГ©";
+$MESS["COMP_FORM_PARAMS_ACTION_ALIAS"] = "Nom d'alias pour la variable action GET";
+$MESS["COMP_FORM_PARAMS_USE_EXTENDED_ERRORS"] = "Utilisez prolongГ©e sortie des messages d'erreur";
+$MESS["COMP_FORM_PARAMS_NOT_SHOW_TABLE_LIST"] = "Les codes de champs qui ne sont pas autorisГ©s Г  afficher dans le tableau";
+$MESS["COMP_FORM_PARAMS_NOT_SHOW_TABLE"] = "Les codes de champs qui ne sont pas autorisГ©s Г  afficher dans le tableau (sГ©parГ©s par des virgules)";
+$MESS["COMP_FORM_PARAMS_NOT_SHOW_FILTER_LIST"] = "Les codes de champs qui ne sont pas autorisГ©s Г  montrer dans le filtre";
+$MESS["COMP_FORM_PARAMS_NOT_SHOW_FILTER"] = "Les codes de champs qui ne sont pas autorisГ©s Г  montrer dans le filtre (sГ©parГ©s par des virgules)";
+$MESS["COMP_FORM_PARAMS_CHAIN_ITEM_TEXT"] = "Nom de la navigation article supplГ©mentaire de la chaГ®ne";
+$MESS["COMP_FORM_PARAMS_SHOW_ADDITIONAL"] = "Afficher des champs de formulaire Web auxiliaires dans un tableau des rГ©sultats";
+$MESS["COMP_FORM_PARAMS_SHOW_ANSWER_VALUE"] = "Afficher valeur ANSWER_VALUE dans un tableau des rГ©sultats";
+$MESS["COMP_FORM_PARAMS_SHOW_STATUS"] = "Afficher l'Г©tat de chaque rГ©sultat dans un tableau de rГ©sultats";
+$MESS["COMP_FORM_VALUES_LIST"] = "liste des rГ©sultats";
+$MESS["COMP_FORM_PARAMS_CHAIN_ITEM_LINK"] = "Lien pour la navigation article supplГ©mentaire de la chaГ®ne";
+$MESS["COMP_FORM_PARAMS_SUCCESS_URL"] = "SuccГЁs URL de la page";
+$MESS["COMP_FORM_SEF_RESULT_LIST_PAGE"] = "Page avec la liste de rГ©sultats";
+$MESS["COMP_FORM_PARAMS_NAME_TEMPLATE"] = "Format du nom";
+?>

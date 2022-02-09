@@ -1,0 +1,34 @@
+<?
+$MESS["SEF_MODE_TIP"] = "Cocher cette option active le mode SEF.";
+$MESS["WEB_FORM_ID_TIP"] = "La liste dГ©roulante prГ©sente tous les formulaires web de la page <i>Liste de formulaires. Le point <i>autre</i> peut ГЄtre utilisГ© si ID du formulaire est transmis vers le composant 'de dehors', c'est-Г -dire par _REQUEST.";
+$MESS["RESULT_ID_TIP"] = "Par dГ©faut le champ contient <i>={\$_REQUEST['RESULT_Id']}</i>. Dans ce champ on peut aussi Г©crire un code php qui rend RESULT_ID";
+$MESS["START_PAGE_TIP"] = "Si vous sГ©lectionnez <i>Liste des rГ©sultats</i> alors la liste des rГ©sultats de ce formulaire s'affichera comme page d'accueil. <br /> Si vous choisissez comme page d'accueil <i>Page d'ajout de rГ©sultat</i> alors dans la partie publique le formulaire web Г  remplir sera affichГ©.";
+$MESS["SHOW_LIST_PAGE_TIP"] = "Si <i>Page d'ajout de rГ©sultat</i> initiale, pour l'option choisie, aprГЁs avoir rempli le formulaire, l'utilisateur sera transfГ©rГ© sur la page avec la liste des rГ©sultats.";
+$MESS["SHOW_EDIT_PAGE_TIP"] = "Si l'option a Г©tГ© choisie, le lien <i>Modifier</i> pour aller Г  l'Г©dition du rГ©sultat sera prГ©sent Г  la page avec la liste des rГ©sultats.";
+$MESS["SHOW_VIEW_PAGE_TIP"] = "L'option Г©tant choisie, la page avec la liste des rГ©sultats comportera un lien pour aller Г  la consultation du rГ©sultat.";
+$MESS["SUCCESS_URL_TIP"] = "Ici il est indiquГ© le chemin vers la page avec un message de l'envoi rГ©ussi du rГ©sultat de la forme. ll est utilisГ© pour l'envoi du rГ©sultat par l'utilisateur n'ayant pas de droit de l'Г©dition des rГ©sultats. Il est possible de laisser ce champ vide; dans ce cas l'utilisateur sera transfГ©rГ© Г  la page avec la forme de l'affichage du message.";
+$MESS["SHOW_ANSWER_VALUE_TIP"] = "Une option marquГ©e permet d'afficher la valeur du paramГЁtre <b>ANSWER_VALUE</b> de la question de forme web.";
+$MESS["SHOW_ADDITIONAL_TIP"] = "Avec une option marquГ©e, les champs supplГ©mentaires de la forme seront affichГ©s (si ils existent).";
+$MESS["SHOW_STATUS_TIP"] = "Avec une option marquГ©e, Г  la page avec une liste des rГ©sultats le statut d'un rГ©sultat courant sera affichГ©.";
+$MESS["EDIT_ADDITIONAL_TIP"] = "Si le drapeau est installГ©, les champs supplГ©mentaires seront affichГ©s pour l'Г©dition.";
+$MESS["EDIT_STATUS_TIP"] = "Si l'option <i>Afficher le statut courant du rГ©sultat</i> est choisie, il est possible soit d'afficher le formulaire de changement du statut (si l'option est cochГ©e), soit de laisser les donnГ©es sur le statut courant du rГ©sultat (si le drapeau est enlevГ©).";
+$MESS["NOT_SHOW_FILTER_TIP"] = "Le rГ©glage vous permet d'exclure les champs du formulaire Web qui ne doivent pas apparaГ®tre dans le filtre sur la page avec la liste de rГ©sultats.";
+$MESS["NOT_SHOW_TABLE_TIP"] = "Add-in permet d'exclure les champs du formulaire WEB qui ne doivent pas ГЄtre visualisГ©s dans la table sur la page avec la liste des rГ©sultats du formulaire WEB.";
+$MESS["CHAIN_ITEM_TEXT_TIP"] = "Dans ce champ vous pouvez spГ©cifier le nom du point de la chaГ®ne de navigation. Par exemple,  <b>'une nouvelle forme'</b>.";
+$MESS["CHAIN_ITEM_LINK_TIP"] = "Le champ permet d'ajouter un lien sur un point supplГ©mentaire dans la chaГ®ne de navigation. Par exemple: <b>/myfolder/</b>.";
+$MESS["CACHE_TYPE_TIP"] = "<i>Auto</i>: cache est valide pendant un temps prГ©dГ©terminГ© dans les paramГЁtres;<br /><i>Mettre en cache</i>: pour la mise en cache il faut dГ©terminer seulement le temps de la mise en cache;<br /><i>Ne pas mettre en cache</i>: pas de mise en cache en tout cas.";
+$MESS["CACHE_TIME_TIP"] = "Veuillez indiquer la pГ©riode de temps durant laquelle la mГ©moire cache reste valide.";
+$MESS["VARIABLE_ALIASES_action_TIP"] = "Ce champ permet d'indiquer la variable dans laquelle le nom de l'opГ©ration est transmis. La valeur de la variable edit - aller Г  la rГ©daction du rГ©sultat, 'list' - aller Г  la page contenant la liste des rГ©sultats.";
+$MESS["SEF_FOLDER_TIP"] = "Le chemin jusqu'au dossier avec lequel travaille le composant. Ce chemin peut exister ou non sous forme physique.";
+$MESS["SEF_URL_TEMPLATES_list_TIP"] = "Si vous choisissez <i>Liste des rГ©sultats</i> que la page principale, vous pouvez laisser ce champ vide. Sinon, indiquez ici le nom du dossier (par exemple <b>Liste /</b>) qui sera ajoutГ© Г  un dossier SEF quand un visiteur ouvre une page contenant une liste de rГ©sultats.";
+$MESS["SEF_URL_TEMPLATES_new_TIP"] = "Si la page d'addition du rГ©sultat est sГ©lectionnГ©e comme la page d'accueil, ce champ peut ГЄtre laissГ© vide. Sinon, vous devez spГ©cifier le nom du rГ©pertoire,  (par exemple, <b>new/</b>).";
+$MESS["SEF_URL_TEMPLATES_edit_TIP"] = "A la page de l'Г©dition du rГ©sultat est transmis ID du rГ©sultat du remplissage de la forme web, par exemple, <b>Г©diter/#RESULT_ID#/</b>.";
+$MESS["SEF_URL_TEMPLATES_view_TIP"] = "La page d'affichage du rГ©sultat doit ГЄtre transmis le ID du rГ©sultat de remplissage de la forme web, par exemple, view/#RESULT_ID#/.";
+$MESS["IGNORE_CUSTOM_TEMPLATE_TIP"] = "Si elle est cochГ©e, le modГЁle de formulaire par dГ©faut sera utilisГ©.";
+$MESS["AJAX_MODE_TIP"] = "Inclusion pour le composant du mode AJAX.";
+$MESS["USE_EXTENDED_ERRORS_TIP"] = "Quand l'option est cochГ©e les messages sur les erreurs seront affichГ©s et les champs remplis inexactement seront marquГ©s.";
+$MESS["AJAX_OPTION_SHADOW_TIP"] = "Au cours du passage l'espace qui doit ГЄtre modifiГ© sera ombrГ©.";
+$MESS["AJAX_OPTION_JUMP_TIP"] = "Si l'utilisateur effectue la transition AJAX, alors aprГЁs l'achГЁvement du chargement le dГ©filement vers le dГ©but du composant aura lieu.";
+$MESS["AJAX_OPTION_STYLE_TIP"] = "Lors des transitions AJAX le chargement et le traitement de la liste de styles provoquГ©s par le composant auront lieu.";
+$MESS["AJAX_OPTION_HISTORY_TIP"] = "Lorsqu'un utilisateur effectue les transitions AJAX, alors si l'option est cochГ©e, vous pouvez utiliser les boutons 'Retour' et 'Suivant' du navigateur.";
+?>

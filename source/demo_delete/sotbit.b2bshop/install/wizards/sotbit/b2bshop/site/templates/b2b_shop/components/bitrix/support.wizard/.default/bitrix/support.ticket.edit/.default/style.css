@@ -1,0 +1,384 @@
+.support-wrapper {
+	position: relative;
+}
+
+.support-chat__title {
+	color: #000;
+	font-family: "ProximaNova", Arial;
+	font-size: 25px;
+	margin-bottom: 10px;
+}
+
+.support-chat__info {
+	background: #f8f8f8;
+	padding: 10px;
+	margin-bottom: 35px;
+}
+
+.support-chat__info__row {
+	display: flex;
+	font-family: "ProximaNova", Arial;
+	font-size: 14px;
+}
+
+.support-chat__info__row__left {
+	color: #666;
+	margin-right: 2px;
+}
+
+.support-chat__info__row__right {
+	color: #000;
+}
+
+.support-chat__title2 {
+	color: #000;
+	font-family: "ProximaNova", Arial;
+	font-size: 18px;
+	border-bottom: 1px solid #e2e2e2;
+	padding-bottom: 10px;
+}
+
+.support-chat__message {
+	margin-top: 25px;
+	border: 1px solid #e2e2e2;
+}
+
+.support-chat__message__header {
+	border-bottom: 1px solid #e2e2e2;
+	display: flex;
+	align-items: center;
+	min-height: 35px;
+	padding: 0 10px;
+	justify-content: space-between;
+}
+
+.support-chat__message__support .support-chat__message__header
+{
+	background: #f8f8f8;
+}
+
+.support-chat__message__header__left {
+	display: flex;
+}
+
+.support-chat__message__header__user {
+	font-family: "ProximaNova", Arial;
+	font-size: 14px;
+	display: flex;
+	padding-right: 20px;
+	border-right: 1px solid #808080;
+}
+
+.support-chat__message__header__user__left {
+	color: #666;
+	margin-right: 2px;
+}
+
+.support-chat__message__header__user__right {
+	color: #000;
+}
+
+.support-chat__message__header__date {
+	padding-left: 20px;
+}
+
+.support-chat__message__header__quote {
+	border: 1px solid #d3d3d3;
+	border-radius: 3px;
+	color: #9a9a9a;
+	height: 15px;
+	width: 60px;
+	text-align: center;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-right: 38px;
+}
+
+.support-chat__message__header__quote span {
+	font-family: "ProximaNova", Arial !important;
+	font-size: 10px !important;
+	text-decoration: none !important;
+	cursor: pointer;
+}
+
+.support-chat__message__body {
+	display: flex;
+	padding: 20px 0;
+}
+
+.support-chat__message__body__left {
+	width: 80px;
+	display: flex;
+	justify-content: center;
+}
+
+.support-chat__message__body__right {
+	width: calc(100% - 80px);
+	padding: 0 20px;
+}
+
+.support-quote-body:before {
+	width: 10px;
+	height: 10px;
+	background: #000;
+}
+
+.support-chat__message__body__right .quote {
+	display: flex;
+}
+
+.support-chat__message__body__right .quote-left {
+	font-size: 16px;
+	color: #e2e2e2;
+	margin-right: 10px;
+}
+
+.support-chat__message__body__right .quote-right {
+	padding: 10px !important;
+	color: #808080;
+	font-family: "ProximaNova", Arial !important;
+	font-size: 12px !important;
+	border: 1px solid #e2e2e2;
+}
+
+.support-chat__message {
+	margin-bottom: 20px;
+}
+
+.support-chat__message__body__left__avatar,
+.support-chat__message__body__left__avatar img {
+	width: 55px;
+	height: 55px;
+	background: #f8f8f8;
+	border-radius: 55px;
+}
+
+.support-form__title {
+	height: 45px;
+	line-height: 45px;
+	background: #f8f8f8;
+	color: #000;
+	font-family: "ProximaNova", Arial;
+	margin-bottom: 10px;
+	padding-left: 10px;
+	font-size: 25px;
+}
+
+.support-form__row {
+	margin-top: 25px;
+	display: flex;
+	width: 100%;
+
+}
+
+.support-form__row__left {
+	width: 170px;
+}
+
+.support-form__row__left label {
+	color: #666666;
+	font-size: 14px;
+	font-family: "ProximaNova", Arial;
+	margin-top: 5px;
+	display: block;
+}
+
+.support-form__row__right {
+	width: 100%;
+}
+
+.support-form__row__right input[type="text"],
+.support-form__row__right select {
+	border: 1px solid #d4d4d4;
+	height: 30px;
+	line-height: 30px;
+	color: #000;
+	font-size: 14px;
+	font-family: "ProximaNova", Arial;
+	padding: 0 15px;
+	width: 100%;
+}
+
+.support-form__row__right textarea {
+	color: #000;
+	font-size: 14px;
+	font-family: "ProximaNova", Arial;
+	padding: 0 15px;
+	border: 1px solid #d4d4d4;
+	width: 100%;
+}
+
+.support-form__upload__file {
+	width: 0.1px;
+	height: 0.1px;
+	opacity: 0;
+	overflow: hidden;
+	position: absolute;
+	z-index: -1;
+}
+
+.support-form__upload__file + label {
+	border: 1px solid #000;
+	height: 30px;
+	line-height: 30px;
+	font-family: "ProximaNova", Arial;
+	background: #FFF;
+	width: 150px;
+	color: #000;
+	font-size: 14px;
+	display: inline-block;
+	text-align: center;
+	cursor: pointer;
+	margin-right: 5px;
+	margin-bottom: 5px;
+}
+
+.support-form__row__right input[type="submit"] {
+	background: #000;
+	width: 180px;
+	height: 35px;
+	line-height: 35px;
+	font-family: "ProximaNova", Arial;
+	font-size: 17px;
+	color: #FFF;
+	text-align: center;
+	cursor: pointer;
+	border: 0;
+}
+
+.support-form__upload__more {
+	border: 0;
+	border-bottom: 1px solid #d4d4d4;
+	background: #FFF;
+	color: #000;
+	height: 18px;
+}
+
+.support-chat__message__footer
+{
+	display: flex;
+	border-top:1px solid #e2e2e2;
+	padding:10px 0;
+	color:#000!important;
+}
+.support-chat__message__footer__left
+{
+	width:80px;
+}
+
+.support-chat__message__footer span
+{
+	color:#666666!important;
+}
+
+.support-chat__message__footer__right__name,
+.support-chat__message__footer__right__download
+{
+	color:#666666!important;
+	font-family: "ProximaNova", Arial!important;
+	font-size:14px!important;
+	text-decoration: underline!important;
+	margin-right:5px;
+}
+
+.support-chat__message__footer__right__download
+{
+	color:#000!important;
+	text-decoration: none!important;
+	border-bottom: 1px solid #666!important;
+	height:16px;
+	display:inline-block;
+}
+
+.support-form__footer {
+	padding: 10px;
+	background: #f8f8f8;
+	margin-top: 35px;
+	margin-bottom: 35px;
+}
+
+.support-form__footer__title {
+	font-family: "ProximaNova", Arial;
+	color: #000;
+	font-size: 18px;
+	margin-bottom: 12px;
+}
+
+.support-form__footer__inner {
+	display: flex;
+}
+
+.support-form__footer__option {
+	background: #FFF;
+	padding: 10px;
+	border: 1px solid #d4d4d4;
+	min-width: 200px;
+	margin-right: 7px;
+	color: #d4d4d4;
+	font-family: "ProximaNova", Arial;
+	font-size: 14px;
+	display: flex;
+	align-items: center;
+	cursor: pointer;
+}
+
+.support-form__footer__bullet {
+	width: 10px;
+	height: 10px;
+	border-radius: 10px;
+	border: 1px solid #cdcdcd;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-right: 10px;
+}
+
+.support-form__footer__bullet__inner {
+	width: 4px;
+	height: 4px;
+	border-radius: 4px;
+}
+
+.support-form__footer__option__active {
+	color: #000;
+}
+
+.support-form__footer__option__active .support-form__footer__bullet__inner {
+	background: #000;
+}
+
+.support-form__close,
+.support-form__open {
+	background: #000;
+	width: 230px;
+	height: 35px;
+	line-height: 35px;
+	font-family: "ProximaNova", Arial;
+	font-size: 17px;
+	color: #FFF;
+	text-align: center;
+	cursor: pointer;
+	border: 0;
+	margin-bottom: 70px;
+}
+
+@media ( min-width: 768px) and (max-width: 991px) {
+	.support-form__footer__option {
+		min-width: 150px;
+	}
+}
+
+@media (max-width: 767px) {
+	.support-form__row {
+		flex-direction: column;
+	}
+
+	.support-form__footer__inner {
+		flex-direction: column;
+	}
+
+	.support-form__footer__option {
+		margin-bottom: 5px;
+	}
+}

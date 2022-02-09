@@ -1,0 +1,233 @@
+
+
+.form-required 
+{
+	color:#80858e;
+}
+
+.error-fld {
+	display: block;
+	float: left;
+	height: 13px;
+	width: 15px;
+	background-repeat: no-repeat;
+	background-image: url(images/icon_warn.gif);
+}
+.form-table .form-input:nth-child(2) {
+	outline: 1px solid red;
+}
+.form-container{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: flex-start;
+	background: white;
+    border: 1px solid #dadada;
+	padding: 25px 25px 35px 25px;
+	height: 440px;
+	margin-bottom: 45px;
+}
+.form-table-item{
+	display: flex;
+	justify-content: flex-start;
+	flex-direction: column;
+	width: 100%;
+
+}
+.form-table-item input{
+
+	height: 35px;
+	background-color: #f5f5f5;
+	border: 1px solid #cfd3d9;
+}
+.warn:before{
+	content: "*";
+	display: inline-block;
+	margin-right: 3px;
+
+}
+form[name="SIMPLE_FORM_CALLBACK_MANAGER"]{
+position: fixed;
+	z-index:103;
+	left: 35%;
+	top:20%;
+	height: 30%;
+	width: 385px;
+	display: none;
+
+}
+.form-button{
+	height: 27px;
+	background-color:#052640;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+	height: 33px;
+	color: white;
+	border: none;
+
+}
+.form-title{
+	font-size: 20px;
+	color: rgb(86,87,89);
+	font-family: "ProximaNova";
+	width: 60%;
+}
+.form-textarea{
+	width: 100% !important;
+	height: 100px!important;
+	background-color: #f5f5f5;
+	padding: 8px;
+}
+.button-close{
+position: absolute;
+	right: 20px;
+	top: 15px;
+	background: url(images/exit.png)no-repeat 80%;
+	width: 18px;
+	height: 18px;
+	background-size: cover;
+	border-radius: 50%;
+	cursor: pointer;
+}
+
+.form-successful{
+	position: fixed;
+	z-index:103;
+	left: 35%;
+	top:20%;
+	height: 440px;
+	width: 385px;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+
+}
+
+.form-successful-content{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	width: 90%;
+	height: 57%;
+	flex-direction: column;
+	margin-top: 25px;
+}
+.warn{
+	margin-left: -10px;
+}
+.form-successful-content-ok{
+	font-size: 25px;
+	line-height: 25px;
+	color: rgb(29,31,32);
+	font-family: "ProximaNova";
+	margin-top: 25px;
+}
+.form-successful-content-call{
+	font-size: 16px;
+	line-height: 26px;
+	color: rgb(77,77,77);
+	font-family: "ProximaNova";
+	text-align: center;
+}
+.form-successful-button{
+	width: 50%;
+	height: 30%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+
+}
+.form-successful-button h1{
+white-space: nowrap;
+color: white;
+	animation: rotate 1s linear infinite  ;
+}
+.form-successful-logo{
+	width: 90px;
+	height: 90px;
+	background: url(images/sendIconGreen.png)no-repeat 100%;
+
+}
+.form-container input {
+	padding: 8px;
+}
+
+
+
+.overlay{
+	height: 100%;
+	width: 100%;
+	position: fixed;
+	background:rgba(0,0,0,.8);
+	z-index: 102;
+	top: 0;
+	left: 0;
+	display: none;
+}
+.overlaySuccessful{
+	height: 100%;
+	width: 100%;
+	position: fixed;
+	background:rgba(0,0,0,.8);
+	z-index: 102;
+	top: 0;
+	left: 0;
+}
+@media screen and (max-width: 992px){
+
+	form[name="SIMPLE_FORM_CALLBACK_MANAGER"]{
+		position: fixed;
+		left: 26%;
+
+	}
+
+}
+@media screen and (max-width: 768px){
+
+	.form-successful{
+		left: 25%;
+	}
+}
+@media screen and (max-width: 767px){
+
+	form[name="SIMPLE_FORM_CALLBACK_MANAGER"]{
+		position: relative;
+		z-index:25;
+		left: 0;
+		width: 100%;
+	}
+	.form-title{
+		width: 80%;
+	}
+	.form-successful{
+		position: relative;
+		left: 0%;
+		top:0;
+	  width: auto;
+
+	}
+.manager-title-container{
+	width: 200px;
+}
+}
+
+
+
+@media screen and (max-width: 360px){
+
+	.form-successful-content-ok{
+		width: 120%;
+		align-items: center;
+		display: flex;
+		justify-content: center;
+		font-size: 22px;
+
+	}
+	.form-successful-content-call{
+		font-size: 14px;
+	}
+}
+

@@ -1,0 +1,114 @@
+.sale-personal-account-wallet-container{
+	width:100%;
+	max-width:430px;
+	margin-bottom:20px;
+	/*margin-top:24px;*/
+	margin-top:0;
+}
+.sale-personal-account-wallet-title{
+	
+	margin-bottom: 30px;
+	padding: 0 3%;
+	background: none repeat scroll 0 0 #fff;
+	border: 1px solid #e2e2e2;
+	box-shadow: 0 0 3px 1px #e2e2e2;
+	padding: 0 3%;
+	position: relative;
+	z-index: 2;
+	font-family: 'PG Isadora Cyr Pro', Arial, regular;
+	color: #a76e6e;
+	margin-bottom: 0;
+	height: 60px;
+	line-height: 60px;
+	font-size:18px;
+}
+.sale-personal-account-wallet-list-container{
+	background-color: #f8f8f8;
+	color: #fff;
+	border-radius: 0 0 3px 3px;
+}
+.sale-personal-account-wallet-list{}
+.sale-personal-account-wallet-list-item{
+	position: relative;
+	padding:11px 17px 12px 17px;
+	font-size:15px;
+	overflow: hidden;
+	border-bottom: 1px solid #e2e5e9;
+}
+.sale-personal-account-wallet-list .sale-personal-account-wallet-list-item:last-child{
+	border-bottom: none;
+}
+
+.sale-personal-account-wallet-currency {
+	display: inline-block;
+	float: left;
+	font-size: 14px;
+	vertical-align: middle;
+}
+
+.sale-personal-account-wallet-currency-item {
+	color: #2a2626;
+	font-weight:bold;
+}
+
+.sale-personal-account-wallet-currency-item + .sale-personal-account-wallet-currency-item {
+	font-weight:bold;
+	color: #2a2626;
+}
+
+.sale-personal-account-wallet-sum {
+	display: inline-block;
+	float: right;
+	white-space: nowrap;
+	font-size: 16px;
+	vertical-align: middle;
+	margin-top:12px;
+	color:#ec859b;
+	font-family:Arial, Helvetica, sans-serif;
+}
+.content-text .sale-acountpay-title
+{
+	margin-bottom:5px;
+	font-size:14px;
+	line-height:14px;
+}
+.sale-acountpay-fixedpay-container
+{
+	margin-bottom:15px;
+}
+.sale-acountpay-input-wrapper
+{
+	max-width:150px;
+	margin-bottom:15px;
+}
+.sale-acountpay-input-wrapper input
+{
+	max-width:100px;
+	height:36px;
+	line-height:36px;
+	font-size:18px;
+	border: 1px solid #e2e5e9;
+	padding-right:5px;
+	color:#000000;
+	font-family: 'Franklin Gothic Book';
+}
+.sale-acountpay-pp-company-wrapper
+{
+	margin-left:-2px!important;
+	margin-right:-2px!important;
+}
+.sale-acountpay-pp-company
+{
+	width:150px;
+	padding-left:2px!important;
+	padding-right:2px!important;
+}
+.pay-button .sale-account-pay-button
+{
+	margin-top:30px;
+	width:150px;
+}
+.sale-paysystem-yandex-button-item
+{
+	border:0;
+}

@@ -1,0 +1,30 @@
+<?
+$MESS["COMP_FORM_PARAMS_ACTION_ALIAS"] = "Pseudonim dla dziaЕ‚ania zmiennej GET";
+$MESS["COMP_FORM_SEF_RESULT_VIEW_PAGE"] = "Strona Widoku WynikГіw";
+$MESS["COMP_FORM_SEF_RESULT_NEW_PAGE"] = "Strona Dodawania Wyniku";
+$MESS["COMP_FORM_SEF_RESULT_EDIT_PAGE"] = "Strona Edycji Wyniku";
+$MESS["COMP_FORM_SEF_RESULT_LIST_PAGE"] = "Strona Listy Wyniku";
+$MESS["COMP_FORM_PARAMS_SUCCESS_URL"] = "Adres URL strony powodzeЕ„";
+$MESS["COMP_FORM_PARAMS_START_PAGE"] = "Strona startowa";
+$MESS["COMP_FORM_VALUES_LIST"] = "lista wyniku";
+$MESS["COMP_FORM_VALUES_NEW"] = "Strona Dodawania Wyniku";
+$MESS["COMP_FORM_PARAMS_SHOW_LIST_PAGE"] = "PokaЕј stronД™ Listy WynikГіw";
+$MESS["COMP_FORM_PARAMS_SHOW_EDIT_PAGE"] = "PokaЕј stronД™ Edycji Wyniku";
+$MESS["COMP_FORM_PARAMS_SHOW_VIEW_PAGE"] = "PokaЕј stronД™ Widoku Wyniku";
+$MESS["COMP_FORM_PARAMS_RESULT_ID"] = "ID Wyniku";
+$MESS["COMP_FORM_PARAMS_EDIT_ADDITIONAL"] = "Zezwalaj na edycjД™ pГіl pomocniczych";
+$MESS["COMP_FORM_PARAMS_EDIT_STATUS"] = "PokaЕј formularz zmiany statusu";
+$MESS["COMP_FORM_PARAMS_WEB_FORM_ID"] = "ID Formularza sieciowego";
+$MESS["COMP_FORM_PARAMS_SHOW_ANSWER_VALUE"] = "PokaЕј wartoЕ›Д‡ ANSWER_VALUE w tabeli wynikГіw";
+$MESS["COMP_FORM_PARAMS_SHOW_ADDITIONAL"] = "PokaЕј pomocnicze pola formularzy sieciowych w tabeli wynikГіw";
+$MESS["COMP_FORM_PARAMS_SHOW_STATUS"] = "PokaЕј status dla kaЕјdego wyniku w tabeli wynikГіw";
+$MESS["COMP_FORM_PARAMS_NOT_SHOW_FILTER"] = "Kody pГіl, ktГіre nie sД… dozwolone, aby pokazaД‡ je w filtrze (oddzielone przecinkami)";
+$MESS["COMP_FORM_PARAMS_NOT_SHOW_FILTER_LIST"] = "Kody pГіl, ktГіre nie sД… dozwolone, aby pokazaД‡ je w filtrze";
+$MESS["COMP_FORM_PARAMS_NOT_SHOW_TABLE"] = "Kody pГіl, ktГіre nie sД… dozwolone, aby pokazaД‡ je w tabeli (oddzielone przecinkami)";
+$MESS["COMP_FORM_PARAMS_NOT_SHOW_TABLE_LIST"] = "Kody pГіl, ktГіre nie sД… dozwolone, aby pokazaД‡ je w tabeli";
+$MESS["COMP_FORM_PARAMS_CHAIN_ITEM_TEXT"] = "Nazwa dodatkowego elementu Е‚aЕ„cucha nawigacji";
+$MESS["COMP_FORM_PARAMS_CHAIN_ITEM_LINK"] = "Link do dodatkowego elementu Е‚aЕ„cucha nawigacji";
+$MESS["COMP_FORM_PARAMS_IGNORE_CUSTOM_TEMPLATE"] = "Ignoruj niestandardowy szablon";
+$MESS["COMP_FORM_PARAMS_USE_EXTENDED_ERRORS"] = "UЕјyj rozszerzonego wyjЕ›cia komunikatГіw o bЕ‚Д™dach";
+$MESS["COMP_FORM_PARAMS_NAME_TEMPLATE"] = "Nazwa Formatu";
+?>

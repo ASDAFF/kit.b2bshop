@@ -1,0 +1,34 @@
+<?
+$MESS["SEF_MODE_TIP"] = "Al seleccionar esta opciГіn se habilita el modo SEF.";
+$MESS["WEB_FORM_ID_TIP"] = "La lista desplegable contiene todos los formularios web actualmente existentes. Alternativamente, puede seleccionar  <i> otros</ i> para usar el ID del formulario externo pasado por via _REQUEST.";
+$MESS["RESULT_ID_TIP"] = "Por defecto, contiene <i>={\$_REQUEST[\"RESULT_ID\"]}</i>. Este campo puede contener cualquier cГіdigo PHP que evalГєe al RESULT_ID.";
+$MESS["START_PAGE_TIP"] = "Si elige <i>Lista de resultados</i>, la pГЎgina principal mostrarГЎ una lista de los resultados para un determinado formulario web.<br />Si usted elije<i> PГЎgina de creaciГіn del resultados</i>, el visitante verГЎ el formulario web seleccionado.  ";
+$MESS["SHOW_LIST_PAGE_TIP"] = "Si usted elige <i>PГЎgina de creaciГіn del resultados</i> como pГЎgina principal y marca esta opciГіn se abrirГЎ la pГЎgina de resultados del formulario web cuando un usuario complete y guarde dicho formulario web.";
+$MESS["SHOW_EDIT_PAGE_TIP"] = "Si esta opciГіn estГЎ activa, un enlace <i>Editar</i> se mostrarГЎ junto al resultado.";
+$MESS["SHOW_VIEW_PAGE_TIP"] = "Si esta opciГіn estГЎ activa, un link para ver el resultado se mostrarГЎ en la pГЎgina de resultados del formulario web.";
+$MESS["SUCCESS_URL_TIP"] = "Ruta a la pГЎgina que contiene el mensaje que informa al visitante sobre el Г©xito al finalizar el formulario. Si utiliza un formulario web donde un usuario estГЎ permitido a ccrear resultados, pero no a editarlos puede dejar este campo vacГ­o. Se mostrarГЎ un mensaje predeterminado.";
+$MESS["SHOW_ANSWER_VALUE_TIP"] = "Al seleccionar esta opciГіn se mostrarГЎ el valor del parГЎmetro ANSWER_VALUE del formulario web.";
+$MESS["SHOW_ADDITIONAL_TIP"] = "Al seleccionar esta opciГіn se mostrarГЎn los campos adicionales del formulario web, si los hubiere.";
+$MESS["SHOW_STATUS_TIP"] = "Al seleccionar esta opciГіn se mostrarГЎ el estado actual del resultadoen la pГЎgina de vista del resultado.";
+$MESS["EDIT_ADDITIONAL_TIP"] = "Al seleccionar esta opciГіn se mostrarГЎn los campos de entrada de texto adicionales.";
+$MESS["EDIT_STATUS_TIP"] = "Si la opciГіn <i>mostrar el estado actual del resultado</i> estГЎ activo, el cambio de estado serГЎ mostrado. Al desmarcar esta opciГіn se mostrarГЎ la informaciГіn sobre el actual estado de resultado.";
+$MESS["NOT_SHOW_FILTER_TIP"] = "Marque esta opciГіn para ocultar los campos del formulario que no deben ser mostradas en el filtro en la pГЎgina de resumen de resultados.";
+$MESS["NOT_SHOW_TABLE_TIP"] = "Marque esta opciГіn para ocultar los campos del formulario que no deben ser mostrados en la tabla de resumen de resultados.";
+$MESS["CHAIN_ITEM_TEXT_TIP"] = "AquГ­ puede especificar el tГ­tulo del item a agregarse a la cadena de navegaciГіn. Por ejemplo: <b>Nuevo formulario</b>.";
+$MESS["CHAIN_ITEM_LINK_TIP"] = "Especifique el link para el item adicional de la cadena de navegaciГіn. Para ejemplo: <b>/myfolder/</b>.";
+$MESS["CACHE_TYPE_TIP"] = "<i>Auto</i>: la cachГ© es vГЎlida durante el tiempo predefinido en la configuraciГіn de la cachГ©;<br /><i>Cache</i>: siempre cachГ© durante el perГ­odo especificado en el siguiente campo;<br /><i>ningГєn cachГ©</i>:no se realiza el almacenamiento en cachГ©. ";
+$MESS["CACHE_TIME_TIP"] = "Especificar el perГ­odo de tiempo durante el cual la memoria cachГ© es vГЎlida.";
+$MESS["VARIABLE_ALIASES_action_TIP"] = "Especifique el nombre de una variable a la que el nombre de la acciГіn serГЎ pasado. La acciГіn \"edit\" cambia para editar el resultado; \"list\" abre una pГЎgina con ellistado de resultados.";
+$MESS["SEF_FOLDER_TIP"] = "La ruta a un componente de directorio de trabajo. La ruta puede existir, o puede ser virtual.";
+$MESS["SEF_URL_TEMPLATES_list_TIP"] = "Si elige <i>Lista de resultados</i> como pГЎgina principal, usted puede dejar el campo. De otro modo, especificar aquГ­ el nombre de la carpeta (e.g. <b>list/</b>) que serГЎ adjunta a la caperta SEF cuando un vistante abra una pГЎgina que cotiene una lista de resutlados.";
+$MESS["SEF_URL_TEMPLATES_new_TIP"] = "Si usted elije una pГЎgina de creaciГіn de resultado como pГЎgina principal, usted podrГЎ dejar este campo vacГ­o. De otro modo, especificar aquГ­ el nombre de una carpeta apropiada. (e.j. <b>new/</b>).";
+$MESS["SEF_URL_TEMPLATES_edit_TIP"] = "Especificar el nombre de la carpeta que contiene el ID del resultado del formulario. Por ejemplo <b>edit/#RESULT_ID#/</b>.";
+$MESS["SEF_URL_TEMPLATES_view_TIP"] = "Especificar la ruta de una pГЎgina de visualizaciГіn de resultados del formulario. El nombre de la carpeta debe contener el ID del formulario Web. Por ejemplo:<b>view/#RESULT_ID#/</b>.";
+$MESS["IGNORE_CUSTOM_TEMPLATE_TIP"] = "Si hace check en este campo, la plantilla por defualt serГЎ usada.";
+$MESS["AJAX_MODE_TIP"] = "Habilitar Ajax en el componente.";
+$MESS["USE_EXTENDED_ERRORS_TIP"] = "Si hace check en este campo, los mensajes de error serГЎn mostrados, los campos incorrectos serГЎn resaltados.";
+$MESS["AJAX_OPTION_SHADOW_TIP"] = "Especifica la zona sombreada modificable en la transiciГіn del AJAX.";
+$MESS["AJAX_OPTION_JUMP_TIP"] = "Especifica el desplazamiento al componente cuando la transiciГіn de AJAX finalize.";
+$MESS["AJAX_OPTION_STYLE_TIP"] = "Especificar para descargar y procesar estilos CSS del componente en la transiciГіn de AJAX.";
+$MESS["AJAX_OPTION_HISTORY_TIP"] = "Permitir los botones de \"Retroceder\" y \"Avanzar\" para las transiciones de Ajax.";
+?>

@@ -1,0 +1,154 @@
+/*icon property*/
+#buy-now-slider .owl-wrapper-outer,
+.buy-now-slider .owl-wrapper-outer {
+    padding-top: 12px;
+}
+#buy-now-slider .buy_now_top .icon_property_wrap,
+.buy-now-slider .buy_now_top .icon_property_wrap {
+    position: absolute;
+    right: 0 !important;
+    top: -20px !important;
+    width: 100%;
+    display: block;
+    text-align: center;
+    z-index: 101;
+    transform: rotate(0deg);
+    background: none;
+    border: 0;
+}
+#buy-now-slider .buy_now_top .icon_property_wrap:before,
+.buy-now-slider .buy_now_top .icon_property_wrap:before {
+    display: none;
+}
+#buy-now-slider .buy_now_top .icon_property_wrap .icon_property,
+.buy-now-slider .buy_now_top .icon_property_wrap .icon_property {
+    background: url(../img/miss_bg_dfbebe_modal_block.png) 0 0;
+    padding: 4px;
+    display: inline-block;
+    min-width: 50%;
+}
+#buy-now-slider .buy_now_top .icon_property_wrap .icon_property .icon_property_name,
+.buy-now-slider .buy_now_top .icon_property_wrap .icon_property .icon_property_name {
+    font-family: 'PG Isadora Cyr Pro', Arial, regular;
+    font-size: 20px;
+    line-height: 31px;
+    color: #7e5f54;
+    background: #fff;
+    padding: 0 10px;
+    display: block;
+    border: 1px solid #3d3d3c;
+    text-align: center;
+}
+/**/
+.block_you_look #buy-now-slider .buy_now_top .icon_property_wrap,
+.block_you_look .buy-now-slider .buy_now_top .icon_property_wrap {
+    position: absolute;
+    right: 0 !important;
+    top: -20px !important;
+    width: 100%;
+    display: block;
+    text-align: center;
+    z-index: 101;
+    transform: rotate(0deg);
+    background: none;
+    border: 0;
+}
+.block_you_look #buy-now-slider .buy_now_top .icon_property_wrap:before,
+.block_you_look.buy-now-slider .buy_now_top .icon_property_wrap:before {
+    display: none;
+}
+.block_you_look #buy-now-slider .buy_now_top .icon_property_wrap .icon_property,
+.block_you_look .buy-now-slider .buy_now_top .icon_property_wrap .icon_property {
+    background: url(../img/miss_bg_dfbebe_modal_block.png) 0 0;
+    padding: 4px;
+    display: inline-block;
+    min-width: 50%;
+}
+.block_you_look #buy-now-slider .buy_now_top .icon_property_wrap .icon_property .icon_property_name,
+.block_you_look .buy-now-slider .buy_now_top .icon_property_wrap .icon_property .icon_property_name {
+    font-family: 'PG Isadora Cyr Pro', Arial, regular;
+    font-size: 17px;
+    line-height: 26px;
+    color: #7e5f54;
+    background: #fff;
+    padding: 0 10px;
+    display: block;
+    border: 1px solid #3d3d3c;
+    text-align: center;
+}
+/**/
+
+/*Style block_you_look_big_bg*/
+.block-you-slider .owl-wrapper-outer {
+    padding-top: 12px;
+}
+.block-you-slider .buy_now_top .icon_property_wrap {
+    position: absolute;
+    right: 0 !important;
+    top: -20px !important;
+    width: 100%;
+    display: block;
+    text-align: center;
+    z-index: 101;
+    transform: rotate(0deg);
+    background: none;
+    border: 0;
+}
+.block-you-slider .buy_now_top .icon_property_wrap:before {
+    display: none;
+}
+.block-you-slider .buy_now_top .icon_property_wrap .icon_property {
+    background: url(../img/miss_bg_dfbebe_modal_block.png) 0 0;
+    padding: 4px;
+    display: inline-block;
+    min-width: 50%;
+}
+.block-you-slider .buy_now_top .icon_property_wrap .icon_property .icon_property_name {
+    font-family: 'PG Isadora Cyr Pro', Arial, regular;
+    font-size: 17px;
+    line-height: 26px;
+    color: #7e5f54;
+    background: #fff;
+    padding: 0 10px;
+    display: block;
+    border: 1px solid #3d3d3c;
+    text-align: center;
+}
+/*End style block_you_look_big_bg*/
+
+
+/*item catalog*/
+.item-top-part .icon_property_wrap {
+    position: absolute;
+    right: 0 !important;
+    top: -20px !important;
+    width: 100%;
+    display: block;
+    text-align: center;
+    z-index: 101;
+    transform: rotate(0deg);
+    background: none;
+    border: 0;
+}
+.item-top-part .icon_property_wrap:before {
+    display: none;
+}
+.item-top-part .icon_property_wrap .icon_property {
+    background: url(../img/miss_bg_dfbebe_modal_block.png) 0 0;
+    padding: 4px;
+    display: inline-block;
+    min-width: 50%;
+}
+.item-top-part .icon_property_wrap .icon_property .icon_property_name {
+    font-family: 'PG Isadora Cyr Pro', Arial, regular;
+    font-size: 17px;
+    line-height: 26px;
+    color: #7e5f54;
+    background: #fff;
+    padding: 0 10px;
+    display: block;
+    border: 1px solid #3d3d3c;
+    text-align: center;
+}
+/*end item catalog*/
+/*end icon property*/

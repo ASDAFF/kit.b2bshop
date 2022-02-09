@@ -1,0 +1,31 @@
+<?
+$MESS ['T_IBLOCK_DISPLAY_PAGE_TITLE'] = "Заголовок блока (если не задан то из названия инфоблока)";
+$MESS ['T_IBLOCK_DISPLAY_PAGE_TITLE_SECOND'] = "Дополение к заговку";
+$MESS ['T_IBLOCK_DESC_NEWS_DATE_FIRST'] = "Выводить дату элемента для первой новости";
+$MESS ['T_IBLOCK_DESC_NEWS_PICTURE_FIRST'] = "Выводить картинку для первой новости";
+$MESS ['T_IBLOCK_DESC_NEWS_TEXT_FIRST'] = "Выводить текст анонса для первой новости";
+$MESS ['T_IBLOCK_DESC_NEWS_DATE_OTHER'] = "Выводить дату элемента для новостей в середине";
+$MESS ['T_IBLOCK_DESC_NEWS_PICTURE_OTHER'] = "Выводить картинки для последующих новостей";
+$MESS ['T_IBLOCK_LIST_HEIGHT_IMG_FIRST'] = "Высота картинки для первой новости, px";
+$MESS ['T_IBLOCK_LIST_WIDTH_IMG_FIRST'] = "Ширина картинки для первой новости, px";
+$MESS ['T_IBLOCK_POPULAR_NEWS_COUNT'] = 'Слайдер новостей -  количество новостей, максимум 9 (не входит в "количество новостей на странице")';
+$MESS ["T_IBLOCK_POPULAR_DESC_ASC"] = "По возрастанию";
+$MESS ["T_IBLOCK_POPULAR_DESC_DESC"] = "По убыванию";
+$MESS ["T_IBLOCK_POPULAR_DESC_FID"] = "ID";
+$MESS ["T_IBLOCK_POPULAR_DESC_FNAME"] = "Название";
+$MESS ["T_IBLOCK_POPULAR_DESC_FACT"] = "Дата начала активности";
+$MESS ["T_IBLOCK_POPULAR_DESC_FSORT"] = "Сортировка";
+$MESS ["T_IBLOCK_POPULAR_DESC_FTSAMP"] = "Дата последнего изменения";
+$MESS ["T_IBLOCK_POPULAR_DESC_IBORD1"] = "Слайдер новостей - поле для первой сортировки новостей";
+$MESS ["T_IBLOCK_POPULAR_DESC_IBBY1"] = "Слайдер новостей - направление для первой сортировки новостей";
+$MESS ["T_IBLOCK_POPULAR_DESC_IBORD2"] = "Слайдер новостей - поле для второй сортировки новостей";
+$MESS ["T_IBLOCK_POPULAR_DESC_IBBY2"] = "Слайдер новостей - направление для второй сортировки новостей";
+$MESS ['T_IBLOCK_POPULAR_GO_DETAIL_PAGE'] = 'Слайдер новостей - текст ссылки "подробнее"';
+$MESS ['T_IBLOCK_POPULAR_GO_DETAIL_PAGE_DEFAULT'] = 'Подробнее';
+$MESS ['T_IBLOCK_POPULAR_DISPLAY_DATE'] = 'Слайдер новостей -  выводить дату элемента';
+$MESS ['T_IBLOCK_POPULAR_DISPLAY_PICTURE'] = 'Слайдер новостей - выводить изображение для анонса';
+$MESS ['T_IBLOCK_POPULAR_HEIGHT_IMG'] = 'Слайдер новостей - высота картинки, px';
+$MESS ['T_IBLOCK_POPULAR_WIDTH_IMG'] = 'Слайдер новостей - ширина картинки, px';
+$MESS ['T_IBLOCK_POPULAR_DISPLAY_PREVIEW_TEXT'] = 'Слайдер новостей - выводить текст анонса';
+$MESS ['T_IBLOCK_POPULAR_TRUNCATE_LEN'] = 'Слайдер новостей - максимальная длина анонса для вывода (только для типа текст)';
+?>

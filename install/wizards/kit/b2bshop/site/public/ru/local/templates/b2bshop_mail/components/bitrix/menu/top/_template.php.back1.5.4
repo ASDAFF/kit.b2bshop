@@ -1,0 +1,18 @@
+<?if (!defined("B_PROLOG_INCLUDED") || B_PROLOG_INCLUDED!==true)die();?>
+
+<?if (!empty($arResult)):?>
+<td>
+     <table width="100%" align="center" cellpadding="0" cellspacing="0" style="border-top: 1px solid #e3e3e3;border-bottom: 1px solid #e3e3e3; box-shadow: 0px 4px 19px 2px #dedede; -webkit-box-shadow:  0px 4px 19px 2px #dedede; -moz-box-shadow:  0px 4px 19px 2px #dedede;">
+        <tr bgcolor="#f4f3f2" height="30px">
+        	<td width="10px"></td>
+            <?
+            foreach($arResult as $arItem):
+                if($arItem['DEPTH_LEVEL']>1 || !$arItem['PARAMS']['FROM_IBLOCK']) continue;
+            ?>
+	            <td style="font-size: 13px;padding-left:5px;padding-right:5px;" align="center"><a href="<?=$arItem["LINK"]?>?utm_source=newsletter&utm_medium=email&utm_campaign=missshop_mailing" target="_blank"style="text-decoration: none; color: #000000;"><?=$arItem["TEXT"]?></a></td>
+            <?endforeach?>
+            <td width="10px"></td>
+         </tr>
+     </table>
+</td>
+<?endif?>

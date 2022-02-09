@@ -1,0 +1,1 @@
+<?$MESS['MS_MENU_TOP_MOBILE_OPEN'] = "меню";?>

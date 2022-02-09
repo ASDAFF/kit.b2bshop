@@ -1,0 +1,41 @@
+/*Table*/
+.sale-personal-profile-list-container
+{
+	width:100%;
+	border-collapse:collapse;
+}
+
+/*Table head*/
+.sale-personal-profile-list-container th
+{
+	border: 1px solid #e2e5e9;
+	padding:5px 5px 5px 10px;
+	font-family: ProximaNova , Arial;
+	font-size:14px;
+	text-align:left;
+	font-weight:normal;
+	background: #f8f8f8;
+	color: #303030; 
+}
+.sale-personal-profile-list-container td
+{
+	border:1px solid #e2e5e9;
+	padding:5px 5px 5px 10px;
+	font-family:ProximaNova, Arial;
+	font-size:12px;
+	color:#303030;
+	vertical-align: middle;
+}
+.content-text .sale-personal-profile-list-actions a
+{
+	color: #a76e6e;
+}
+.sale-personal-profile-list-border
+{
+	display: inline-block;
+	margin: 0 5px;
+	height: 23px;
+	border-right: 1px solid #dee2e7;
+	vertical-align: middle;
+}
+

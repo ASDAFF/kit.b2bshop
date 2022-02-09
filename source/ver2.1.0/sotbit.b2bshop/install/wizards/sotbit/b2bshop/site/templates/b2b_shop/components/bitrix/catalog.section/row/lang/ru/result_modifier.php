@@ -1,0 +1,3 @@
+<?
+$MESS["B2BS_CATALOG_FROM_PRICE"] = "от ";
+?>

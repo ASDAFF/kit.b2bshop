@@ -1,0 +1,209 @@
+/*Main*/
+.container {
+    width: 1170px !important;
+}
+body {
+    overflow-x: auto;
+}
+.main-bg {
+    overflow-x: hidden;
+}
+.header,
+.footer,
+.main-bg {
+    min-width: 1190px;
+}
+.main-top-menu {
+    background: #fff;
+}
+.wrap-top-inner-menu .item a.wrap-banner .img_hover,
+.wrap-top-inner-menu .item a.wrap-element .img_hover {
+    display: none !important;
+}
+
+.block_banner .banner-inner{
+    behavior: url(plugins/pie/PIE.htc);
+}
+.block_small_banner img {
+     border: 1px solid #cfcfcf;
+}
+.block_brand_wrap {
+    border: 1px solid #dfdfdf;
+
+}
+.wrap-top-block-right1 #basket {
+    position: relative;
+}
+.footer_block_center .row{
+    border: 1px solid #dfdfdf; 
+}
+.sm-padding-no {
+    padding-left: 0;
+    padding-right: 0;
+}
+.sm-padding-min {
+    padding-left: 7px;
+    padding-right: 7px;
+}
+.sm-padding-left-no {
+    padding-left: 0;
+    padding-right: 15px;
+}
+.sm-padding-right-no {
+    padding-right: 0;
+    padding-left: 15px;
+}
+.buy_now_bottom {
+    border: 1px solid #f2efed;
+}
+.hover .buy_now_bottom {
+    border: 1px solid #fff;
+}
+
+.item_open .buy_now_bottom {
+    border: 1px solid #fff;
+}
+
+.main_block_news .bl_right .news_slide {
+    border: 1px solid #f1f1f1;
+}
+/*End main*/
+
+/*Style for section catalog page*/
+.item-bottom-part {
+    border: 1px solid #f2efed;
+
+}
+.left-block-inner {
+    border: 1px solid #d3d2d1;
+}
+.hover .item-bottom-part {
+    border: 1px solid #fff;
+}
+.noUi-horizontal .noUi-handle {
+    border: 1px solid #d3d2d1;
+}
+.scrollbarY .thumb {
+    border: 1px solid #d3d2d1;
+}
+
+/*Style for section catalog page*/
+
+
+/*Style for detail page*/
+a.btn_add_basket,
+a.btn_add_wish {
+    behavior: url(plugins/pie/PIE.htc);
+}
+a.btn_add_wish {
+    border: 1px solid #bebebe;
+}
+/*End style for detail page*/
+
+
+/*Style zoom for picture*/
+.detail_big_pic .big-foto-js{
+    cursor: default;
+}
+.zoomIt_zoomed {
+    display: none !important;
+}
+
+/*End style zoom for picture*/
+
+/*Style for basket order page*/
+.wrap_item_payment input,
+.wrap_item_delivery input {
+    display:block;
+    position: absolute;
+    top: 0px;
+    left:-12px;
+    opacity: 0;
+    -moz-opacity: 0;
+    -khtml-opacity: 0;
+    filter:progid:DXImageTransform.Microsoft.Alpha(opacity=0);
+}
+/*End style for basket order page*/
+
+
+/*Style for modal window login*/
+.login-form .rememberme input{
+    display:block;
+    position: absolute;
+    top: 0px;
+    left:-12px;
+    opacity: 0;
+    -moz-opacity: 0;
+    -khtml-opacity: 0;
+    filter:progid:DXImageTransform.Microsoft.Alpha(opacity=0);
+}
+/*End style for modal window login*/
+
+
+/*Style for block filter*/
+.inner_filter_block ul li input[type="checkbox"],
+.filter_size .inner_filter_block  ul > li > input[type="checkbox"],
+.filter_color .inner_filter_block ul > li > input[type="checkbox"] {
+    display: block;
+    position: absolute;
+    top: 0px;
+    left:-12px;
+    opacity: 0;
+    -moz-opacity: 0;
+    -khtml-opacity: 0;
+    filter:progid:DXImageTransform.Microsoft.Alpha(opacity=0);
+}
+
+/*End style for block filter*/
+
+
+/*Style for personal subscribe*/
+.personal_block_subscribe .subscribe_choose input {
+    display: block;
+    position: absolute;
+    top: 0px;
+    left:-12px;
+    opacity: 0;
+    -moz-opacity: 0;
+    -khtml-opacity: 0;
+    filter:progid:DXImageTransform.Microsoft.Alpha(opacity=0);
+}
+.personal_block_subscribe .subscribe_format input  {
+    display: block;
+    position: absolute;
+    top: 0px;
+    left:-12px;
+    opacity: 0;
+    -moz-opacity: 0;
+    -khtml-opacity: 0;
+    filter:progid:DXImageTransform.Microsoft.Alpha(opacity=0);
+}
+
+/*Style login_page*/
+.login_page .wrap_login_form .rememberme input{
+    display: block;
+    position: absolute;
+    top: 0px;
+    left:-12px;
+    opacity: 0;
+    -moz-opacity: 0;
+    -khtml-opacity: 0;
+    filter:progid:DXImageTransform.Microsoft.Alpha(opacity=0);
+}
+/*End style login_page*/
+/*End style for personal subscribe*/
+
+/*Style contacts page*/
+.block_office,
+.block_feedback,
+.block_map {
+    border: 1px solid #c9c9c9;
+}
+
+/* End style contacts page*/
+
+/*Style main list news*/
+.news_main_list  .news_main_one {
+    border: 1px solid #f1f1f1;
+}
+/*End style main list news*/

@@ -1,0 +1,18 @@
+.tooltip{ /*position: absolute; top: 0; left: 0; z-index: 10000!important; display: none;
+background-color: #f5f5b5!important;
+    border: 1px solid #deca7e!important;
+    color: #303030!important;
+    font-family: sans-serif;
+    font-size: 12px!important;
+    line-height: 18px!important;
+    padding: 10px 13px!important;
+    position: absolute;
+    text-align: center!important;*/
+    z-index: 10000!important;
+}
+
+a.btn_add_basket, a.btn_add_wish, .back_call_submit, .kit_order_phone_form .wrap_input, .subscribe_product_form .wrap_input{position:relative;}
+.block_img_js .bnt_left, .block_img_js .bnt_right{
+    cursor:pointer;
+} 
+ 

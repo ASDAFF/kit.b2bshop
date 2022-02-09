@@ -1,0 +1,2 @@
+<img src="/bitrix/templates/b2b_shop/img/miss_block_bottom_center_1.jpg" width="45" height="21" title="Почта России" />
+<img src="/bitrix/templates/b2b_shop/img/miss_block_bottom_center_1.jpg" width="45" height="21" title="Почта России" />
